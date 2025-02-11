@@ -1,0 +1,11 @@
+<svg width="24.000000000000004" height="24.000000000000004" xmlns="http://www.w3.org/2000/svg" class="size-6" stroke="currentColor" stroke-width="1.5" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m6.75,3l0,2.25m10.5,-2.25l0,2.25m-14.25,13.5l0,-11.25a2.25,2.25 0 0 1 2.25,-2.25l13.5,0a2.25,2.25 0 0 1 2.25,2.25l0,11.25m-18,0a2.25,2.25 0 0 0 2.25,2.25l6.60811,0m-8.85811,-2.25l0,-7.5a2.25,2.25 0 0 1 2.25,-2.25l13.5,0a2.25,2.25 0 0 1 2.25,2.25l0,4.12162" stroke-linejoin="round" stroke-linecap="round"/>
+  <line stroke="null" fill="none" stroke-linecap="round" stroke-linejoin="round" id="svg_3" y2="20.32432" x2="15.37838" y1="18.27027" x1="13"/>
+  <line transform="rotate(90 14.1487 21.527)" stroke="null" fill="none" stroke-linecap="round" stroke-linejoin="round" id="svg_7" y2="22.75676" x2="15.10812" y1="20.2973" x1="13.18921"/>
+  <line stroke="null" fill="none" stroke-linecap="round" stroke-linejoin="round" id="svg_8" y2="20.32432" x2="19.16216" y1="18.27027" x1="16.78378"/>
+  <line transform="rotate(90 17.9325 21.527)" stroke="null" fill="none" stroke-linecap="round" stroke-linejoin="round" id="svg_9" y2="22.75676" x2="18.89191" y1="20.2973" x1="16.97299"/>
+ </g>
+</svg>

@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lrp22.todoistmain"
     },
     "web": {
       "bundler": "metro",
@@ -23,6 +24,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "react-native-bottom-tabs",
       "expo-router",
       [
         "expo-splash-screen",
@@ -32,7 +34,22 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true
