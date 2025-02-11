@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# React Native Todoist Clone with Clerk
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native Todoist clone using [Clerk](https://go.clerk.com/1vaJMZL) for user authentication.
 
-## Get started
+Additional features:
 
-1. Install dependencies
+- [Expo Router](https://docs.expo.dev/routing/introduction/) file-based navigation
+- [Expo SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) for storing chats and messages
+- [React Hook Form](https://react-hook-form.com/) for form handling
+- [Calendars](https://github.com/wix/react-native-calendars) for calendar component
+- [Bouncy Checkbox](https://github.com/wix/react-native-bouncy-checkbox) for checkbox component
+- [Haptics](https://docs.expo.dev/versions/latest/sdk/haptics/) for haptic feedback
+- [Reanimated](https://docs.swmansion.com/react-native-reanimated/) 3 for animations
+- [Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) for gestures
+- [RN MMKV](https://github.com/mrousavy/react-native-mmkv) for efficient key/value storage
+- [Sonner Native](https://gunnartorfis.github.io/sonner-native/) for toast notifications
 
-   ```bash
-   npm install
-   ```
+## Setup
 
-2. Start the app
+### Environment Setup
 
-   ```bash
-    npx expo start
-   ```
+Make sure you have the [Expo CLI](https://docs.expo.dev/get-started/set-up-your-environment/) installed.
 
-In the output, you'll find options to open the app in a
+Because we are using pre-built and a custom development client, you should download [Android Studio](https://developer.android.com/studio) and [Xcode](https://developer.apple.com/xcode/) to your Mac. For more information on setting up your development environment, refer to the [Expo documentation](https://docs.expo.dev/workflow/android-studio-emulator/) for Android Studio and the [React Native documentation](https://reactnative.dev/docs/environment-setup?guide=native) for Xcode.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### App Setup
+To build the app, perform the following steps:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone the repository
+2. Run `npm install`
+3. Run `npx expo prebuild`
+4. Run `npx expo run:ios` or `npx expo run:android`
 
-## Get a fresh project
 
-When you're ready, run:
+## App Screenshots
 
-```bash
-npm run reset-project
-```
+<div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/1.png" width=30%>
+<img src="./screenshots/2.png" width=30%>
+<img src="./screenshots/3.png" width=30%>
+<img src="./screenshots/4.png" width=30%>
+<img src="./screenshots/5.png" width=30%>
+<img src="./screenshots/6.png" width=30%>
+<img src="./screenshots/7.png" width=30%>
+<img src="./screenshots/8.png" width=30%>
+<img src="./screenshots/9.png" width=30%>
+<img src="./screenshots/10.png" width=30%>
+<img src="./screenshots/11.png" width=30%>
+</div>
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Demo
 
-## Learn more
+<div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/1.gif" width=30%>
 
-To learn more about developing your project with Expo, look at the following resources:
+<img src="./screenshots/3.gif" width=30%>
+<img src="./screenshots/8.gif" width=30%>
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<img src="./screenshots/5.gif" width=30%>
 
-## Join the community
+<img src="./screenshots/4.gif" width=30%>
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+</div>
